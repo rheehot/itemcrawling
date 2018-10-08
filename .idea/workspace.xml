@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fc81b3ba-2d17-41bf-b9cf-b0a33274a261" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/gradle-multi-modules/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/gradle-multi-modules/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/gradle-multi-modules/gradle-multi-modules.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/gradle-multi-modules/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/gradle-multi-modules/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/gradle-multi-modules/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/gradle-multi-modules/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/gradle-multi-modules/module-api/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/gradle-multi-modules/module-api/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/gradle-multi-modules/module-api/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/gradle-multi-modules/module-api/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/gradle-multi-modules/module-api/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/gradle-multi-modules/module-api/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/gradle-multi-modules/module-api/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/gradle-multi-modules/module-api/src/main/java/com/example/blogcode/ModuleApiApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/gradle-multi-modules/module-api/src/main/java/com/example/blogcode/service/MemberServiceCustom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/gradle-multi-modules/module-api/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/gradle-multi-modules/module-api/src/test/java/com/example/moduleapi/ModuleApiApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/gradle-multi-modules/module-common/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/gradle-multi-modules/module-common/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/gradle-multi-modules/module-common/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/gradle-multi-modules/module-common/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/gradle-multi-modules/module-common/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/gradle-multi-modules/module-common/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/gradle-multi-modules/module-common/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/gradle-multi-modules/module-common/src/main/java/com/example/blogcode/ModuleCommonApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/gradle-multi-modules/module-common/src/main/java/com/example/blogcode/domain/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/gradle-multi-modules/module-common/src/main/java/com/example/blogcode/repository/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/gradle-multi-modules/module-common/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/gradle-multi-modules/module-common/src/test/java/com/example/blogcode/ModuleCommonApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/gradle-multi-modules/module-common/src/test/java/com/example/blogcode/repository/MemberRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/gradle-multi-modules/module-web/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/gradle-multi-modules/module-web/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/gradle-multi-modules/module-web/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/gradle-multi-modules/module-web/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/gradle-multi-modules/module-web/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/gradle-multi-modules/module-web/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/gradle-multi-modules/module-web/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/gradle-multi-modules/module-web/src/main/java/com/example/moduleweb/ModuleWebApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/gradle-multi-modules/module-web/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/gradle-multi-modules/module-web/src/test/java/com/example/moduleweb/ModuleWebApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/gradle-multi-modules/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/gradle-multi-modules/src/main/java/com/example/blogcode/GradleMultiModulesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/gradle-multi-modules/src/main/java/com/example/blogcode/ServletInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/gradle-multi-modules/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/gradle-multi-modules/src/test/java/com/example/blogcode/GradleMultiModulesApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/spring-gradle-demo/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/spring-gradle-demo/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/spring-gradle-demo/.idea/libraries/Gradle__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/spring-gradle-demo/.idea/libraries/Gradle__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/spring-gradle-demo/.idea/libraries/Gradle__com_fasterxml_classmate_1_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/spring-gradle-demo/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/spring-gradle-demo/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/spring-gradle-demo/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/spring-gradle-demo/.idea/libraries/Gradle__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/spring-gradle-demo/.idea/libraries/Gradle__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/spring-gradle-demo/.idea/libraries/Gradle__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/spring-gradle-demo/.idea/libraries/Gradle__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/spring-gradle-demo/.idea/libraries/Gradle__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/spring-gradle-demo/.idea/libraries/Gradle__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/spring-gradle-demo/.idea/libraries/Gradle__javax_servlet_jstl_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/spring-gradle-demo/.idea/libraries/Gradle__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/spring-gradle-demo/.idea/libraries/Gradle__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/spring-gradle-demo/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_1_7_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/spring-gradle-demo/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_agent_1_7_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/spring-gradle-demo/.idea/libraries/Gradle__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/spring-gradle-demo/.idea/libraries/Gradle__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/spring-gradle-demo/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_api_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/spring-gradle-demo/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_to_slf4j_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/spring-gradle-demo/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_core_8_5_31.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/spring-gradle-demo/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_el_8_5_31.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/spring-gradle-demo/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_jasper_8_5_31.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/spring-gradle-demo/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_31.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/spring-gradle-demo/.idea/libraries/Gradle__org_apache_tomcat_tomcat_annotations_api_8_5_31.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/spring-gradle-demo/.idea/libraries/Gradle__org_assertj_assertj_core_3_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/spring-gradle-demo/.idea/libraries/Gradle__org_attoparser_attoparser_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/spring-gradle-demo/.idea/libraries/Gradle__org_eclipse_jdt_ecj_3_12_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/spring-gradle-demo/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/spring-gradle-demo/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/spring-gradle-demo/.idea/libraries/Gradle__org_hibernate_validator_hibernate_validator_6_0_10_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/spring-gradle-demo/.idea/libraries/Gradle__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/spring-gradle-demo/.idea/libraries/Gradle__org_mockito_mockito_core_2_15_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/spring-gradle-demo/.idea/libraries/Gradle__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/spring-gradle-demo/.idea/libraries/Gradle__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/spring-gradle-demo/.idea/libraries/Gradle__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/spring-gradle-demo/.idea/libraries/Gradle__org_slf4j_jul_to_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/spring-gradle-demo/.idea/libraries/Gradle__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/spring-gradle-demo/.idea/libraries/Gradle__org_springframework_boot_spring_boot_2_0_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/spring-gradle-demo/.idea/libraries/Gradle__org_springframework_boot_spring_boot_autoconfigure_2_0_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/spring-gradle-demo/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_2_0_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/spring-gradle-demo/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_json_2_0_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/spring-gradle-demo/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_logging_2_0_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/spring-gradle-demo/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_test_2_0_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/spring-gradle-demo/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_thymeleaf_2_0_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/spring-gradle-demo/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_tomcat_2_0_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/spring-gradle-demo/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_web_2_0_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/spring-gradle-demo/.idea/libraries/Gradle__org_springframework_boot_spring_boot_test_2_0_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/spring-gradle-demo/.idea/libraries/Gradle__org_springframework_boot_spring_boot_test_autoconfigure_2_0_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/spring-gradle-demo/.idea/libraries/Gradle__org_springframework_spring_aop_5_0_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/spring-gradle-demo/.idea/libraries/Gradle__org_springframework_spring_beans_5_0_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/spring-gradle-demo/.idea/libraries/Gradle__org_springframework_spring_context_5_0_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/spring-gradle-demo/.idea/libraries/Gradle__org_springframework_spring_core_5_0_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/spring-gradle-demo/.idea/libraries/Gradle__org_springframework_spring_expression_5_0_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/spring-gradle-demo/.idea/libraries/Gradle__org_springframework_spring_jcl_5_0_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/spring-gradle-demo/.idea/libraries/Gradle__org_springframework_spring_test_5_0_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/spring-gradle-demo/.idea/libraries/Gradle__org_springframework_spring_web_5_0_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/spring-gradle-demo/.idea/libraries/Gradle__org_springframework_spring_webmvc_5_0_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/spring-gradle-demo/.idea/libraries/Gradle__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/spring-gradle-demo/.idea/libraries/Gradle__org_thymeleaf_thymeleaf_3_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/spring-gradle-demo/.idea/libraries/Gradle__org_thymeleaf_thymeleaf_spring5_3_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/spring-gradle-demo/.idea/libraries/Gradle__org_unbescape_unbescape_1_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/spring-gradle-demo/.idea/libraries/Gradle__org_xmlunit_xmlunit_core_2_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/spring-gradle-demo/.idea/libraries/Gradle__org_yaml_snakeyaml_1_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/spring-gradle-demo/.idea/modules/spring-gradle-demo_main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/spring-gradle-demo/.idea/modules/spring-gradle-demo_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/spring-gradle-demo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/spring-gradle-demo/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/springjpa/src/main/java/com/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/springjpa/src/main/java/com/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/springjpa/src/test/java/com/repository/UserRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/03_menu/01_menubar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/03_menu/02_menubar_template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/03_menu/03_in_layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/03_menu/04_context.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/03_menu/05_context_content.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/03_menu/06_context_for_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/03_menu/07_context_ui.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/03_menu/07_menu_toolbar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/03_menu/09_disable_item.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/03_menu/10_hide_item.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/03_menu/11_menu_open_click.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/03_menu/12_submenu_config.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/03_menu/13_hrefs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/03_menu/14_vertical_menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/03_menu/15_menu_spacer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/03_menu/16_badges.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/03_menu/17_submenu_autowidth.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/03_menu/images/html4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/03_menu/images/html5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/03_menu/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/05_list/01_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/05_list/02_list_layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/05_list/03_group_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/05_list/04_list_grouping.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/05_list/06_validation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/05_list/07_empty_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/05_list/08_xlist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/05_list/09_copypaste.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/05_list/10_filtering.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/05_list/11_unitlist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/05_list/12_paging.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/05_list/13_ycount.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/05_list/14_custom_handlers.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/05_list/15_active_content.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/05_list/16_unitlist_pager.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/05_list/17_advanced_template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/05_list/data/empty.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/05_list/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/08_chart/02_color/01_custom.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/08_chart/02_color/02_function.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/08_chart/02_color/03_gradient.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/08_chart/02_color/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/08_chart/03_api/01_group.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/08_chart/03_api/02_export_png.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/08_chart/03_api/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/08_chart/04_pie_chart/01_init.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/08_chart/04_pie_chart/02_3d_chart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/08_chart/04_pie_chart/03_legend.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/08_chart/04_pie_chart/04_donut.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/08_chart/04_pie_chart/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/08_chart/05_line_chart/01_init.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/08_chart/05_line_chart/02_style.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/08_chart/05_line_chart/03_scale.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/08_chart/05_line_chart/04_spline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/08_chart/05_line_chart/05_series.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/08_chart/05_line_chart/06_style_presets.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/08_chart/05_line_chart/07_legend.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/08_chart/05_line_chart/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/08_chart/06_bar_chart/01_init.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/08_chart/06_bar_chart/02_text.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/08_chart/06_bar_chart/03_scales.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/08_chart/06_bar_chart/04_styles.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/08_chart/06_bar_chart/05_stacked_chart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/08_chart/06_bar_chart/06_series.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/08_chart/06_bar_chart/07_horizonal_bars.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/08_chart/06_bar_chart/08_horizonal_stacked_bars.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/08_chart/06_bar_chart/09_origin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/08_chart/06_bar_chart/10_style_presets.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/08_chart/06_bar_chart/11_bar_width.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/08_chart/06_bar_chart/12_diff_charts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/08_chart/06_bar_chart/13_custom_axis.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/08_chart/06_bar_chart/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/08_chart/08_dynamic/01_add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/08_chart/08_dynamic/02_events.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/08_chart/08_dynamic/03_sorting.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/08_chart/08_dynamic/04_filtering.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/08_chart/08_dynamic/05_dynamic_line.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/08_chart/08_dynamic/06_dynamic_spline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/08_chart/08_dynamic/07_dynamic_area.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/08_chart/08_dynamic/08_dynamic_splinearea.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/08_chart/08_dynamic/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/08_chart/11_scale/01_y_intervals.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/08_chart/11_scale/02_custom_x_axis.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/08_chart/11_scale/03_origin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/08_chart/11_scale/04_logarithmic_y.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/08_chart/11_scale/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_initializr/webix/src/main/resources/static/08_chart/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../webix/.idea/vcs.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/tacademy$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1538801130706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1999969650">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.36" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="18" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="18" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="6323" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="6323" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/py_project/run.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2083">
+              <caret line="178" column="10" lean-forward="true" selection-start-line="178" selection-start-column="10" selection-end-line="178" selection-end-column="10" />
+              <folding>
+                <element signature="e#171#207#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/py_project/DbMgr.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="496">
+              <caret line="46" column="42" lean-forward="true" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
+              <folding>
+                <marker date="1538982925986" expanded="true" signature="71:76" ph="..." />
+                <marker date="1538982925986" expanded="true" signature="238:243" ph="..." />
+                <marker date="1538982925986" expanded="true" signature="238:577" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/py_project/run_1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-176">
+              <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+              <folding>
+                <element signature="e#158#194#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/py_project/run_wholesale.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="225" column="24" lean-forward="true" selection-start-line="225" selection-start-column="24" selection-end-line="225" selection-end-column="24" />
+              <folding>
+                <element signature="e#171#207#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/py_project/ItemInfo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>DBHelper</find>
+      <find>keyword</find>
+      <find>SearchGNBText</find>
+      <find>driver</find>
+      <find>find_element_by_name</find>
+      <find>element</find>
+      <find>element.</find>
+      <find>tour_list</find>
+      <find>iteminfo_list</find>
+      <find>print(</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/py_project/test.py" />
+        <option value="$PROJECT_DIR$/py_project/Tour.py" />
+        <option value="$PROJECT_DIR$/강의자료_다운로드/1. 소스 파일/run.py" />
+        <option value="$PROJECT_DIR$/py_project/run.py" />
+        <option value="$PROJECT_DIR$/py_project/run_1.py" />
+        <option value="$PROJECT_DIR$/py_project/ItemInfo.py" />
+        <option value="$PROJECT_DIR$/강의자료_다운로드/1. 소스 파일/DbMgr.py" />
+        <option value="$PROJECT_DIR$/py_project/run_wholesale.py" />
+        <option value="$PROJECT_DIR$/py_project/DbMgr.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
+    <option name="width" value="1944" />
+    <option name="height" value="1044" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="tacademy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tacademy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tacademy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tacademy" type="462c0819:PsiDirectoryNode" />
+              <item name="py_project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tacademy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tacademy" type="462c0819:PsiDirectoryNode" />
+              <item name="강의자료_다운로드" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tacademy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tacademy" type="462c0819:PsiDirectoryNode" />
+              <item name="강의자료_다운로드" type="462c0819:PsiDirectoryNode" />
+              <item name="1. 소스 파일" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\study\webcrawler\tacademy\py_project" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python">
+      <module name="tacademy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\study\webcrawler\tacademy\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fc81b3ba-2d17-41bf-b9cf-b0a33274a261" name="Default Changelist" comment="" />
+      <created>1538800380835</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1538800380835</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13927126" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38065845" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.502834" side_tool="true" weight="0.39215687" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49716598" visible="true" weight="0.32798573" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="R Graphics" order="4" />
+      <window_info anchor="right" id="R Packages" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/py_project/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="598" lean-forward="true" selection-start-line="598" selection-end-line="598" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_project/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2083">
+          <caret line="178" column="10" lean-forward="true" selection-start-line="178" selection-start-column="10" selection-end-line="178" selection-end-column="10" />
+          <folding>
+            <element signature="e#171#207#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/강의자료_다운로드/1. 소스 파일/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+          <folding>
+            <element signature="e#158#194#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_project/Tour.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding>
+            <marker date="1538957914830" expanded="true" signature="158:163" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/강의자료_다운로드/1. 소스 파일/DbMgr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="43" column="21" lean-forward="true" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_project/run_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-176">
+          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+          <folding>
+            <element signature="e#158#194#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_project/ItemInfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_project/run_wholesale.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="225" column="24" lean-forward="true" selection-start-line="225" selection-start-column="24" selection-end-line="225" selection-end-column="24" />
+          <folding>
+            <element signature="e#171#207#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_project/DbMgr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="46" column="42" lean-forward="true" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
+          <folding>
+            <marker date="1538982925986" expanded="true" signature="71:76" ph="..." />
+            <marker date="1538982925986" expanded="true" signature="238:243" ph="..." />
+            <marker date="1538982925986" expanded="true" signature="238:577" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

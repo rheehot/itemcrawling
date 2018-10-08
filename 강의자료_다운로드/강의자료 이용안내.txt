@@ -1,0 +1,18 @@
+안녕하세요.T아카데미 입니다.
+
+토크ON세미나 25차 'Python을 활용한 웹 크롤러 만들기'에 사용된
+소소 파일 및 환경셋팅과 관련한 파일입니다.
+
+영상과 함께 소스 파일을 참고해 주세요.
+
+<첨부 파일 내용>
+1. 소스 파일
+- run.py, DbMgr.py, Tour.py
+- 최종 결과 / 최종수집데이터.png
+
+2. 웹드라이버 및 환경설정
+- chromedriver.exe, chromedriver, phantomjs
+- db.sql
+
+3. 문서
+- 보조 문서 / python_카테고리.pdf
