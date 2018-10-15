@@ -28,16 +28,16 @@ class DBHelper:
             self.conn.close()
 
     # 검색 키워드 가져오기 => 웹에서 검색
-    def db_selectKeyword(self):
-        #커서 오픈
-        # with => 닫기 처리를 자동으로 처리해준다 => I/O 많이 사용
-        rows = None
-        with self.conn.cursor() as cursor:
-            sql  = "select * from tbl_keyword;"
-            cursor.execute(sql)
-            rows = cursor.fetchall()
-            print(rows)
-        return rows
+    # def db_selectKeyword(self):
+    #     #커서 오픈
+    #     # with => 닫기 처리를 자동으로 처리해준다 => I/O 많이 사용
+    #     rows = None
+    #     with self.conn.cursor() as cursor:
+    #         sql  = "select * from tbl_keyword;"
+    #         cursor.execute(sql)
+    #         rows = cursor.fetchall()
+    #         print(rows)
+    #     return rows
 
     def db_insertCrawlingData(self, title, price, area, contents, keyword, img, link):
         with self.conn.cursor() as cursor:
@@ -52,6 +52,6 @@ class DBHelper:
 # 단독으로 수행시에만 작동 => 테스트코드를 삽입해서 사용
 if __name__=='__main__':
     db = DBHelper()
-    print( db.db_selectKeyword() )
+    # print( db.db_selectKeyword() )
     print( db.db_insertCrawlingData('1','2','3','4','5') )
     db.db_free()
